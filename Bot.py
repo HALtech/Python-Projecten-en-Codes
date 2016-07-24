@@ -25,28 +25,6 @@ handler = logging.FileHandler(filename='Discord.log', encoding='utf-8', mode='w'
 handler.setFormatter(logging.Formatter('%(asctime)s:%(levelname)s:%(name)s: %(message)s'))
 logger.addHandler(handler)
 
-#UserName="kasper.ruhe@hotmail.com"
-#Password="Salasanakissa-27"
-
-#UserName="thebluekr@outlook.com"
-#Password="Salasanakissa27"
-
-Password = "MTY4NDYzNjA4NTgwMjc2MjI0.Cer_fw.iBVJPrHRMu1l2md5flOgfpOMdL8"
-
-client = discord.Client()
-
-#tb = telebot.TeleBot("205991125:AAGXay3xSfQX9DOC3mwbqyUUBUbJcoSyNN4")
-
-CLIENT_ID = "f98c3d4ee47b0a6"
-CLIENT_SECRET = "9b97d10373fa0b095808941427ed801ec2e3de03"
-im = pyimgur.Imgur(CLIENT_ID, CLIENT_SECRET)
-
-# api = twitter.Api(
-				# consumer_key="9gsUF7JVl4A5kXU1g4LeMOlfC",
-				# consumer_secret="uRaIGyOAkDahF7buB8joaaJ81dPMjzHCgbgG1z5FOTHlL2ObE9",
-				# access_token_key="436702863-KLCi2AoJB1ZhBlWHNW50gktv8qiKgx199YcsFLHN",
-				# access_token_secret="otK9HEvIPuLZGCYHGeJ8uOEf3YWrQlQ98i6LehE5Gqt02")
-
 OwnerID = ["121546822765248512"]
 BotID = ["138365437791567872"]
 
